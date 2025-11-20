@@ -59,7 +59,7 @@
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 600;
-    color: blue; /* secondary: blue links */
+    color: black; /* secondary: blue links */
 
     padding: 6px 14px;
     border-radius: 999px;
@@ -98,7 +98,7 @@ body {
     padding: 0;
     background-color: #0b3d1e; /* forest green */
     font-family: "Georgia", "Garamond", serif;
-    color: blue; /* global font color */
+    color: black; /* global font color */
 }
 
 /* Cream content wrapper */
@@ -159,7 +159,7 @@ nav a:hover {
 h2 {
     font-size: 2.2rem;
     color: black;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
     margin-top: 40px;
     font-family: "Garamond", serif;
@@ -223,7 +223,7 @@ button:hover, .btn:hover {
 footer {
     text-align: center;
     padding: 20px 0;
-    color: blue;
+    color: white;
     margin-top: 40px;
     font-size: 0.9rem;
     font-style: italic;
