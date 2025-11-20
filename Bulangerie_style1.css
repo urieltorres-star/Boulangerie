@@ -1,0 +1,230 @@
+/* ---------- Header & Navigation (Rustic Style) ---------- */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 26px;
+    margin-top: 16px;
+
+    /* Rustic background: warm parchment with subtle gradient */
+    background: linear-gradient(
+        135deg,
+        #f5e2c3 0%,
+        #f0d3aa 40%,
+        #e6c193 100%
+    );
+    border-radius: 18px;
+
+    /* Slight “wood frame” effect */
+    border: 2px solid #7b4b2a;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.35),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+    gap: 18px;
+}
+
+/* Brand area */
+.brand h1 {
+    font-family: "Georgia", "Garamond", "Times New Roman", serif;
+    font-size: 2.3rem;
+    margin: 0;
+
+    /* Slightly distressed / rustic feel via letter spacing & shadow */
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #000; /* primary: black */
+    text-shadow:
+        0 1px 0 #fdf7e3,
+        0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.brand .tagline {
+    margin: 6px 0 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #3b2a1a; /* warm brown accent */
+    opacity: 0.9;
+}
+
+/* Rustic nav chips */
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: blue; /* secondary: blue links */
+
+    padding: 6px 14px;
+    border-radius: 999px;
+
+    /* Rough “tag” look */
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(88, 54, 30, 0.5);
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.7),
+        0 2px 4px rgba(0, 0, 0, 0.25);
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+.main-nav a:hover {
+    background-color: #f0d3aa;
+    transform: translateY(-1px);
+    box-shadow:
+        0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+
+
+/* ================================
+   French Restaurant Theme Stylesheet
+   Cream + Forest Green + Blue Text
+=================================== */
+
+/* ----------- Base Page Styles ----------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b3d1e; /* forest green */
+    font-family: "Georgia", "Garamond", serif;
+    color: blue; /* global font color */
+}
+
+/* Cream content wrapper */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fdf7e3; /* cream */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ----------- Header / Logo ----------- */
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: white; /* header text blue */
+    font-family: "Garamond", serif;
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/* ----------- Navigation Menu ----------- */
+
+nav {
+    background-color: #fdf7e3;
+    padding: 12px 0;
+    text-align: center;
+    border-bottom: 5px solid #0b3d1e;
+}
+
+nav a {
+    color: black; /* nav links blue */
+    font-size: 1.1rem;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+    color: #0000aa; /* darker blue on hover */
+    border-bottom: 2px solid #0000aa;
+}
+
+
+/* ----------- Section Titles ----------- */
+
+h2 {
+    font-size: 2.2rem;
+    color: black;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    font-family: "Garamond", serif;
+}
+
+
+/* ----------- Menu Items ----------- */
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dotted blue;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item span {
+    font-size: 1.2rem;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #0000aa; /* slightly darker blue for emphasis */
+}
+
+
+/* ----------- Images ----------- */
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.35);
+}
+
+
+/* ----------- Buttons ----------- */
+
+button, .btn {
+    background-color: #0b3d1e;
+    color: #fdf7e3; /* keep cream text on dark button for contrast */
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Garamond", serif;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #145f30;
+}
+
+
+/* ----------- Footer ----------- */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: blue;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    font-style: italic;
+}
