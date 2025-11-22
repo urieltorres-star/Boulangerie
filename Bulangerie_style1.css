@@ -98,7 +98,7 @@ body {
     padding: 0;
     background-color: #0b3d1e; /* forest green */
     font-family: "Georgia", "Garamond", serif;
-    color: black; /* global font color */
+    color: white; /* global font color */
 }
 
 /* Cream content wrapper */
@@ -122,7 +122,7 @@ header {
 
 header h1 {
     font-size: 3rem;
-    color: white; /* header text blue */
+    color: black; /* header text blue */
     font-family: "Garamond", serif;
     letter-spacing: 3px;
     margin: 0;
@@ -133,10 +133,10 @@ header h1 {
 /* ----------- Navigation Menu ----------- */
 
 nav {
-    background-color: #fdf7e3;
+    background-color: #f0d3aa; /* light cream/nav bg */
     padding: 12px 0;
     text-align: center;
-    border-bottom: 5px solid #0b3d1e;
+    border-bottom: 5px solid #0b3d1e; /* forest green border */
 }
 
 nav a {
